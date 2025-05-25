@@ -6,14 +6,13 @@
 /*   By: knomura <knomura@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 23:09:35 by knomura           #+#    #+#             */
-/*   Updated: 2025/05/23 00:13:31 by knomura          ###   ########.fr       */
+/*   Updated: 2025/05/23 06:33:10 by knomura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include <stdarg.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <stdlib.h>
 
 int	ft_putnbr(int n)
