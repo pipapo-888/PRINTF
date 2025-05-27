@@ -6,7 +6,7 @@
 /*   By: knomura <knomura@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 12:15:47 by knomura           #+#    #+#             */
-/*   Updated: 2025/05/25 15:55:43 by knomura          ###   ########.fr       */
+/*   Updated: 2025/05/25 21:03:23 by knomura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,8 +81,8 @@ int	ft_printf(const char *format, ...)
 // 	// int	a;
 
 // 	// a = 42;
-// 	// ft_printf("%u %%Hell%c %dWo%s\n", -1, 'o', 45, "rld");
-// 	// printf("%u %%Hell%c %dwo%s\n", -1,'o', 45, "rld");
+//// ft_printf("%u %%Hell%c %dWo%s\n", -1, 'o', 45, "rld");
+//	// printf("%u %%Hell%c %dwo%s\n", -1,'o', 45, "rld");
 
 // 	// ft_printf("i am %x years old he is %X years old  %p\n", 253, 32332, &a);
 // 	// printf("i am %x years old he is %X years old  %p\n", 253, 32332, &a);
