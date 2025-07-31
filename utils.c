@@ -6,7 +6,7 @@
 /*   By: knomura <knomura@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 23:09:35 by knomura           #+#    #+#             */
-/*   Updated: 2025/05/23 06:33:10 by knomura          ###   ########.fr       */
+/*   Updated: 2025/06/19 13:11:53 by knomura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	ft_putnbr(int n)
 	}
 	if (num >= 10)
 		count += ft_putnbr(num / 10);
-	c = num % 10 + 48;
+	c = num % 10 + '0';
 	write(1, &c, 1);
 	count++;
 	return (count);
