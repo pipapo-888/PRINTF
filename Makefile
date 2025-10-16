@@ -6,11 +6,11 @@
 #    By: knomura <knomura@student.42tokyo.jp>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/15 11:27:12 by knomura           #+#    #+#              #
-#    Updated: 2025/05/21 05:20:22 by knomura          ###   ########.fr        #
+#    Updated: 2025/10/17 02:20:34 by knomura          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
+NAME = printf.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
